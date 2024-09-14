@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="back">
+        <h1>Build Your Dynamic Resume</h1>
+
+        <div class="container">
+
+            <div class="first">
+            
+                <div class="info">
+                <h3>Personal Information</h3>
+                <input type="text" name="name" placeholder="Enter Your Name" class="inp" id="name" required><br>
+                <input type="phone" name="phone" placeholder="Contact Number" class="inp" id="number" required><br>
+                <input type="text" name="Email" placeholder="Enter Your Email" class="inp" id="email" required>
+            </div>
+        </div>
+
+
+
+        <div class="minic" id="div1">
+            <h3>Education</h3>
+            <textarea type="text" name="text" id="education"></textarea>
+
+        </div>
+        <button class="btn" id="toogle1">Toggle Education</button>
+
+        <div class="minic" id="div2">
+            <h3>Skills</h3>
+            <textarea type="text" name="text" id="skills"></textarea>
+        </div>
+
+        <button class="btn" id="toogle2" \>Toggle Skills</button>
+
+        <div class="minic" id="div3">
+            <h3>Experience</h3>
+            <textarea type="text" name="text" id="experience"></textarea>
+
+        </div>
+        <button class="btn" id="toogle3">Toggle Experience</button>
+        <button  type="submit" id="generate">Generate Your Resume</button>
+    </div>
+    <br>
+    <div id="displayresume" contenteditable="true">
+    </div>
+
+
+    <div id="shareablecontainer"  style="display: none;">
+        <h2>Share Your Resume Link</h2>
+        <a href="#" id="shareablelink"></a>
+        <br>
+        <button id="downloadpdf">Download as PDF</button>
+    </div>
+    </div>
+    
+
+    
+    </div>
+    <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
