@@ -1,5 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+
 // function 1
 let education = document.getElementById("toogle1");
 let div1 = document.getElementById("div1");
@@ -10,7 +9,7 @@ education.addEventListener("click", function () {
     }
     else {
         div1.style.display = "none";
-        this.textContent = " Show Education";
+        this.textContent = " Sho Education";
     }
 });
 //function 2 skills
