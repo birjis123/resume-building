@@ -1,4 +1,4 @@
-
+"use strict";
 // function 1
 let education = document.getElementById("toogle1");
 let div1 = document.getElementById("div1");
@@ -9,7 +9,7 @@ education.addEventListener("click", function () {
     }
     else {
         div1.style.display = "none";
-        this.textContent = " Sho Education";
+        this.textContent = " Show Education";
     }
 });
 //function 2 skills

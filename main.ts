@@ -9,7 +9,7 @@ education.addEventListener("click", function () {
     this.textContent = "Hide Education";
   } else {
     div1.style.display = "none";
-    this.textContent = " Sho Education";
+    this.textContent = " Show Education";
   }
 });
 
