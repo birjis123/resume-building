@@ -184,6 +184,8 @@ h3{
     border-radius: 10px;
 }
 
+
+
 @media only screen  and (max-width:400px){
 
 
@@ -198,6 +200,8 @@ h1{
         background-color:none ;
         width: 90%;
         margin:auto;
+        background-size: cover;
+       
     }
 
 
@@ -244,8 +248,7 @@ textarea{
    
 
 }
-
-
-
-   
 }
+/* 
+@media only screen and (max-width:800px) and(min-width:400px) */
+   
